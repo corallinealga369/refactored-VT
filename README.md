@@ -32,3 +32,8 @@ In this script, I have imported my VirusTotal API key from another file so that 
 		Your apikey file should be saved as a python file, which can then be imported like so: 
 		
 			from <filename> import apikey
+# Usage
+
+When you run the script you will be prompted to choose whether to run a URL or IP report by selecting the corresponding number between 1 and 3. 
+The results will automatically be saved to a file with the name: <ip/url><lookup type>.txt .
+
